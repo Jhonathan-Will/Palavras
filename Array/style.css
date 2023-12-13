@@ -1,0 +1,27 @@
+:root{
+    --cor1 : rgb(20, 20, 20);
+    --cor2 : rgb(75, 75, 75);
+    --cor3: rgb(230, 225, 225);
+}
+
+.bg-styled{
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+button{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: none;
+    
+}
+
+#resultado{
+    height: 52vh;
+    color: var(--cor3);
+    background-color: var(--cor1);
+}
